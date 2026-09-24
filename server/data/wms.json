@@ -1,0 +1,54 @@
+{
+  "paperStock": [
+    {
+      "id": "P-1790184657492-mkvb4",
+      "mill": "test",
+      "gsm": 80,
+      "widthMm": 1200,
+      "quantityKg": 20,
+      "receivedAt": "2026-09-23T17:30:57.492Z"
+    },
+    {
+      "id": "P-1790184695591-5q3d9",
+      "mill": "test2",
+      "gsm": 30,
+      "widthMm": 1200,
+      "quantityKg": 4,
+      "receivedAt": "2026-09-23T17:31:35.591Z"
+    }
+  ],
+  "adhesiveKg": 2,
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "lakshmi",
+      "source": "Direct",
+      "dimensions": {
+        "idMm": 1,
+        "odMm": 123,
+        "thicknessMm": 5
+      },
+      "quantity": 40,
+      "unit": "KG",
+      "orderWeightKg": 40,
+      "status": "CREATED",
+      "createdAt": "2026-09-23T17:34:13.667Z"
+    },
+    {
+      "id": 2,
+      "customerName": "laks1",
+      "source": "Direct",
+      "dimensions": {
+        "idMm": 2,
+        "odMm": 2,
+        "thicknessMm": 5
+      },
+      "quantity": 29,
+      "unit": "TONS",
+      "orderWeightKg": 29000,
+      "status": "CREATED",
+      "createdAt": "2026-09-23T17:40:47.541Z"
+    }
+  ],
+  "nextOrderId": 3
+}
